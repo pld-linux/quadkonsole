@@ -1,0 +1,13 @@
+--- quadkonsole-2.0.1/src/quadkonsole.desktop~	2006-03-08 01:13:20.000000000 +0100
++++ quadkonsole-2.0.1/src/quadkonsole.desktop	2006-10-04 00:00:41.265005814 +0200
+@@ -1,9 +1,8 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+ Name=QuadKonsole
+-Name[xx]=xxQuadKonsolexx
+ Exec=quadkonsole
+ Icon=konsole
+ Type=Application
+-Categories=Qt;KDE;System;TerminalEmulator;
++Categories=Categories=Qt;KDE;TerminalEmulator;
+ X-KDE-StartupNotify=true
