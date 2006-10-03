@@ -2,7 +2,7 @@ Summary:	KDE application that embeds Konsole kparts in a grid layout
 Summary(pl):	Aplikacja KDE osadzaj±ca konsolê KDE w uk³adzie siatki
 Name:		quadkonsole
 Version:	2.0.1
-Release:	0.2
+Release:	0.4
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://nomis80.org/quadkonsole/%{name}-%{version}.tar.gz
@@ -58,6 +58,9 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	kde_htmldir=%{_kdedocdir}
 
+install -d $RPM_BUILD_ROOT%{_desktopdir}/kde
+mv $RPM_BUILD_ROOT/usr/share/applnk/Utilities/*.desktop $RPM_BUILD_ROOT%{_desktopdir}/kde
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -65,4 +68,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/quadkonsole
-#%{_datadir}/applnk/Utilities/quadkonsole.desktop
+%{_desktopdir}/kde/quadkonsole.desktop
