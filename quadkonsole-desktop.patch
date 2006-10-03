@@ -9,5 +9,5 @@
  Icon=konsole
  Type=Application
 -Categories=Qt;KDE;System;TerminalEmulator;
-+Categories=Categories=Qt;KDE;TerminalEmulator;
++Categories=Qt;KDE;TerminalEmulator;
  X-KDE-StartupNotify=true
