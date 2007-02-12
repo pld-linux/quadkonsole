@@ -1,5 +1,5 @@
 Summary:	KDE application that embeds Konsole kparts in a grid layout
-Summary(pl):	Aplikacja KDE osadzaj±ca konsolê KDE w uk³adzie siatki
+Summary(pl.UTF-8):   Aplikacja KDE osadzajÄ…ca konsolÄ™ KDE w ukÅ‚adzie siatki
 Name:		quadkonsole
 Version:	2.0.1
 Release:	1
@@ -29,18 +29,18 @@ widgets get focus as soon as the mouse hovers on them (focus follows
 mouse). This can be disabled on the command-line. Use CTRL + SHIFT +
 arrow key to move from konsole to konsole.
 
-%description -l pl
-QuadKonsole wy¶wietla wiele konsol w jednym oknie, dziêki temu mo¿e
-zostaæ zminimalizowana/zmaksymalizowana za jednym razem. Inne korzy¶ci
-to miêdzy innymi mniejszy pobór pamiêci, szybszy start, automatyczne
-wyrównywanie konsol oraz ³atwa nawigacja.
+%description -l pl.UTF-8
+QuadKonsole wyÅ›wietla wiele konsol w jednym oknie, dziÄ™ki temu moÅ¼e
+zostaÄ‡ zminimalizowana/zmaksymalizowana za jednym razem. Inne korzyÅ›ci
+to miÄ™dzy innymi mniejszy pobÃ³r pamiÄ™ci, szybszy start, automatyczne
+wyrÃ³wnywanie konsol oraz Å‚atwa nawigacja.
 
-Domy¶lna ilo¶æ kolumn i wierszy dla konsol to 2 na 2, ale warto¶ci te
-mog± byæ ustawione w linii poleceñ. Ustawienia konsol s± dostêpne pod
-prawym przyciskiem myszki a zapisane ustawienia s± globalne i odnosz±
-siê do wszystkich osadzanych elementów. Konsole aktywuje siê poprzez
-kursor myszki (co mo¿e zostaæ wy³±czone w linii poleceñ) oraz poprzez
-kursory klawiatury z wci¶niêtymi CTRL i SHIFT.
+DomyÅ›lna iloÅ›Ä‡ kolumn i wierszy dla konsol to 2 na 2, ale wartoÅ›ci te
+mogÄ… byÄ‡ ustawione w linii poleceÅ„. Ustawienia konsol sÄ… dostÄ™pne pod
+prawym przyciskiem myszki a zapisane ustawienia sÄ… globalne i odnoszÄ…
+siÄ™ do wszystkich osadzanych elementÃ³w. Konsole aktywuje siÄ™ poprzez
+kursor myszki (co moÅ¼e zostaÄ‡ wyÅ‚Ä…czone w linii poleceÅ„) oraz poprzez
+kursory klawiatury z wciÅ›niÄ™tymi CTRL i SHIFT.
 
 %prep
 %setup -q
