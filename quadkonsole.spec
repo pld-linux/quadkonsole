@@ -1,5 +1,5 @@
 Summary:	KDE application that embeds Konsole kparts in a grid layout
-Summary(pl.UTF-8):   Aplikacja KDE osadzająca konsolę KDE w układzie siatki
+Summary(pl.UTF-8):	Aplikacja KDE osadzająca konsolę KDE w układzie siatki
 Name:		quadkonsole
 Version:	2.0.1
 Release:	1
